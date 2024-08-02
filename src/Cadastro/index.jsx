@@ -13,6 +13,7 @@ function handleSubmit(event){
 
 
   return (
+
     <div className="max-w-md mx-auto mt-10 bg-white p-8  border-gray-300 rounded-lg shadow-lg">
       <h2 className="text-2xl font-bold mb-6 text-center text-gray-800 ">Cadastro</h2>
       <form action="" className="flex flex-col gap-6 " onSubmit={handleSubmit}>
@@ -23,6 +24,7 @@ function handleSubmit(event){
         <button className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-400">Cadastrar-se</button>
       </form>
       <Link className="m-4 block text-center" to={'/Login'}>Ja tem uma conta? Faça login</Link>
+      <video src="Projeto-Cadastro/videos/6929602-hd_1920_1080_30fps.mp4"></video>
     </div>
   );
 }

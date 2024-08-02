@@ -7,10 +7,12 @@ function App() {
 
 
   return (
+  
     <BrowserRouter>
     <Routes>
     <Route path="/"element={<Cadastro/>}/>
     <Route path="/"element={<Login />}/>
+
     </Routes>
     </BrowserRouter>
   )
